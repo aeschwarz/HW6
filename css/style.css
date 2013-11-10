@@ -1,0 +1,52 @@
+﻿body {background-color:lightgrey;
+
+}
+
+.deletedteamshighlight {
+color: red; 
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+}
+
+#navlist { 
+    list-style:none; 
+    padding-left:410px; 
+    margin:0; 
+
+}
+
+    #navlist li {
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+
+#navlist li:before {
+            content: " | ";
+        }
+#navlist li:first-child:before {
+            content: "";
+        }
+
+
+
+.default {
+    color:red;
+    font-weight:bold;
+    font-size:50px;
+    text-align:center;
+    text-decoration:wavy;
+}
+
+.main {
+    font-weight:bold;
+    font-size:25px;
+    text-align:left;
+}
+
+.img {
+    float:left;
+    padding:20px;
+}
+
