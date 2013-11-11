@@ -91,12 +91,20 @@ text-decoration: underline;
 }
 
 .cssdetailsview {
-    border:solid 10px; border-color:darkred;
-    color:white;
-    background-color:red;
+    border:solid 10px; border-color:darkgreen;
+    color:green;
+    background-color:lightgreen;
 }
 .cssdetailsview1 {
     border:solid 10px; border-color:black;
     color:black;
     background-color:yellow;
+}
+
+.search {
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+    border:double; border-color:antiquewhite;
+
 }

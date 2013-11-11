@@ -21,6 +21,7 @@
                     <li> <a href="newteam.aspx"> Add a new team </a> </li>
                     <li> <a href="aboutme.aspx"> About me </a> </li>
                     <li> <a href="contact.aspx"> Contact me </a> </li>
+                    <li> <a href="search.aspx"> Search </a></li>
               
                 </h2> 
             </ul>
