@@ -27,7 +27,7 @@
         </div>
 
  <div class="img" > 
-        <img alt="NFL Teams" title="NFL Teams" height="530px" src="./images/map.jpg" /> 
+        <img alt="NFL Teams" title="NFL Teams" height="600px" src="./images/map.jpg" /> 
             </div>
 
         
@@ -36,7 +36,7 @@
 
        
 
-        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label> | <a href="aboutme.aspx"> About Me </a> | <a href="contact.aspx"> Contact Us</a>
           
         </div>
     </div>

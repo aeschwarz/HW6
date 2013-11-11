@@ -45,7 +45,18 @@
         <br /> 
         <a href="newteam.aspx"> Add a new team </a>
         <br />
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="teamId" DataSourceID="SqlDataSource1" Height="70px" Width="400px">
+        <br />
+        <br />
+
+        <asp:DetailsView ID="DetailsView1" 
+            runat="server" 
+            AutoGenerateRows="False" 
+            DataKeyNames="teamId" 
+            DataSourceID="SqlDataSource1" 
+            Height="239px" 
+            Width="546px"
+            CssClass="cssdetailsview"
+            >
             <Fields>
                 <asp:BoundField DataField="teamName" HeaderText="Name" SortExpression="teamName" />
                 <asp:BoundField DataField="teamCity" HeaderText="City" SortExpression="teamCity" />
@@ -57,8 +68,33 @@
         </asp:DetailsView>
     
     </div>
-
-        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+              <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label> | <a href="aboutme.aspx"> About Me </a> | <a href="contact.aspx"> Contact Us</a>
     </form>
 </body>
 </html>

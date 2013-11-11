@@ -10,12 +10,55 @@
 <body>
     <form id="form1" runat="server">
         <a href="default.aspx"> Home </a>
-    <div id="contact">
+     <br /> 
+         <br /> 
+         <br />
+         <div id="contact">
         adam-schwarz@uiowa.edu
         630-290-5945
+        
+  
     </div>
-
-        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+          <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+            <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+            <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+            <br /> 
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label> | <a href="aboutme.aspx"> About Me </a>
 
     </form>
 </body>

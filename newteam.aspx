@@ -43,7 +43,19 @@
         <br />
         <a href="teams.aspx"> View all teams</a>
         <br /> 
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="teamId" DataSourceID="SqlDataSource1" Height="70px" Width="400px" DefaultMode="Insert">
+        <br />
+        <br />
+
+        <asp:DetailsView ID="DetailsView1" 
+            runat="server" 
+            AutoGenerateRows="False" 
+            DataKeyNames="teamId" 
+            DataSourceID="SqlDataSource1" 
+            Height="239px" 
+            Width="546px" 
+            DefaultMode="Insert"
+            CssClass="cssdetailsview1"
+            >
             <Fields>
                 <asp:BoundField DataField="teamName" HeaderText="Name" SortExpression="teamName" />
                 <asp:BoundField DataField="teamCity" HeaderText="City" SortExpression="teamCity" />
@@ -53,9 +65,34 @@
                 <asp:CommandField ShowInsertButton="True" />
             </Fields>
         </asp:DetailsView>
-    
+          <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
-        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label> | <a href="aboutme.aspx"> About Me </a> | <a href="contact.aspx"> Contact Us</a>
 
     </form>
 </body>

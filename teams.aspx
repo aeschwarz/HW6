@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-            <div style="text-align:center;">
+         
         
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_HW6 %>" 
             DeleteCommand="DELETE FROM [Table] WHERE [teamId] = @teamId" 
@@ -36,23 +36,69 @@
                 <asp:Parameter Name="teamId" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-            </div>
+           
     </div>
         <br />
         <a href="default.aspx"> Home </a>
         <br />
         <a href="newteam.aspx"> Add a new team </a>
         <br />
+        <br />
+        <br />
+     
 
-        <asp:GridView ID="GridView1" runat="server" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="teamId" DataSourceID="SqlDataSource1" Height="210px" Width="524px" AllowPaging="True" PageSize="5">
+        <asp:GridView ID="GridView1" 
+            runat="server" 
+            AllowSorting="True" 
+            AutoGenerateColumns="False" 
+            DataKeyNames="teamId" 
+            DataSourceID="SqlDataSource1" 
+            Height="239px" 
+            Width="546px" 
+            AllowPaging="True" 
+            PageSize="5"
+            CssClass="cssgridview"
+            >
+           
+          
+
             <Columns>
                 <asp:BoundField DataField="teamName" HeaderText="Name" SortExpression="teamName" />
                 <asp:HyperLinkField DataNavigateUrlFields="teamID" DataNavigateUrlFormatString="teamdetails.aspx?teamID={0}" Text="View Details" />
             </Columns>
         </asp:GridView>
  
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
- <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+
+
+
+ <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label> | <a href="aboutme.aspx"> About Me </a> | <a href="contact.aspx"> Contact Us</a>
     </div>
     </form>
 </body>

@@ -11,12 +11,55 @@
     <form id="form1" runat="server">
         <a href="default.aspx"> Home </a>
     <div>
-    
-        My name is Adam Schwarz
-
+        <div id="about">
+            <br />
+            <br />
+        My name is Adam Schwarz!!
+        </div>
     </div>
-
-        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+            <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+            <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+         <br /> 
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label> | <a href="contact.aspx"> Contact Us </a>
 
     </form>
 </body>
