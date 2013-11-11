@@ -10,13 +10,14 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+            <div style="text-align:center;">
+        
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_HW6 %>" 
             DeleteCommand="DELETE FROM [Table] WHERE [teamId] = @teamId" 
             InsertCommand="INSERT INTO [Table] ([teamName], [teamCity], [teamState], [teamStadium], [teamColors]) VALUES (@teamName, @teamCity, @teamState, @teamStadium, @teamColors)" 
             SelectCommand="SELECT * FROM [Table]" 
             UpdateCommand="UPDATE [Table] SET [teamName] = @teamName, [teamCity] = @teamCity, [teamState] = @teamState, [teamStadium] = @teamStadium, [teamColors] = @teamColors WHERE [teamId] = @teamId">
-            <DeleteParameters>
+                     <DeleteParameters>
                 <asp:Parameter Name="teamId" Type="Int32" />
             </DeleteParameters>
             <InsertParameters>
@@ -35,6 +36,8 @@
                 <asp:Parameter Name="teamId" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
+            </div>
+    </div>
         <br />
         <a href="default.aspx"> Home </a>
         <br />
@@ -47,7 +50,9 @@
                 <asp:HyperLinkField DataNavigateUrlFields="teamID" DataNavigateUrlFormatString="teamdetails.aspx?teamID={0}" Text="View Details" />
             </Columns>
         </asp:GridView>
-    
+ 
+
+ <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
     </div>
     </form>
 </body>

@@ -19,13 +19,15 @@
                 <h2 class="main"> 
                     <li> <a href="teams.aspx"> View all teams </a> </li>  
                     <li> <a href="newteam.aspx"> Add a new team </a> </li>
+                    <li> <a href="aboutme.aspx"> About me </a> </li>
+                    <li> <a href="contact.aspx"> Contact me </a> </li>
               
                 </h2> 
             </ul>
         </div>
 
  <div class="img" > 
-        <img alt="NFL Teams" title="NFL Teams" height="450px" align="center" src="./images/map.jpg" /> 
+        <img alt="NFL Teams" title="NFL Teams" height="530px" src="./images/map.jpg" /> 
             </div>
 
         
@@ -34,7 +36,9 @@
 
        
 
-
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
+          
+        </div>
     </div>
     </form>
 </body>

@@ -1,5 +1,6 @@
 ﻿body {background-color:lightgrey;
 
+
 }
 
 .deletedteamshighlight {
@@ -11,7 +12,7 @@ text-decoration: underline;
 
 #navlist { 
     list-style:none; 
-    padding-left:410px; 
+   
     margin:0; 
 
 }
@@ -35,18 +36,40 @@ text-decoration: underline;
     color:red;
     font-weight:bold;
     font-size:50px;
-    text-align:center;
+    text-align:center; 
     text-decoration:wavy;
 }
 
 .main {
-    font-weight:bold;
+    font-weight:100;
     font-size:25px;
-    text-align:left;
+    text-align:center;
 }
 
 .img {
-    float:left;
-    padding:20px;
+    text-align: center;
 }
 
+.teamstable {
+    text-align:center;
+}
+
+#footer { background:lightgrey;
+          text-align:center;
+    
+}
+
+#contact {
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    border:dashed;
+    margin-left:600px;
+    margin-right:600px;
+}
+
+#teamsbox {
+    border:solid 1px; 
+    color:red; 
+    background-color:blue;
+}

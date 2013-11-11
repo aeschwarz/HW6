@@ -57,6 +57,8 @@
         </asp:DetailsView>
     
     </div>
+
+        <div id="footer"> &copy; Adam Schwarz &Sigma;&Chi; | <asp:Label ID="lbl_date" runat="server" Text=""> </asp:Label>
     </form>
 </body>
 </html>
